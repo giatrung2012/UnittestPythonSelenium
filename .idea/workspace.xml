@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bd84bfb-d454-458b-8f7d-800381791594" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/chromedriver86.exe" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/ReportHTML/ReportTest/TestResults__2021-03-15_16-30-33.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Result.py" beforeDir="false" afterPath="$PROJECT_DIR$/reports/Result.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/reports/Runner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/CustomChromeDriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/CustomChromeDriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTest/Data_testLogin.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/dataTest/Data_testLogin.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Page_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Page_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/steps/Step_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/steps/Step_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/LoginTests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/LoginTests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verifys/Verify_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/verifys/Verify_login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +30,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/giatrung2012/workspace/UnittestPythonSelenium&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
@@ -72,48 +66,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Runner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="UnittestPythonSelenium" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/reports" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reports/Runner.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Verify_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="UnittestPythonSelenium" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/verifys" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/verifys/Verify_login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for LoginTests.MyTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="UnittestPythonSelenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,6 +77,20 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;LoginTests.MyTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for LoginTests.MyTestCase.test_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="UnittestPythonSelenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;LoginTests.MyTestCase.test_login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -142,20 +108,35 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for LoginTests.MyTestCase.test_login_0_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="UnittestPythonSelenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\giatrung2012\AppData\Local\Programs\Python\Python311\python.exe" />
+      <option name="SDK_NAME" value="Python 3.11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;LoginTests.MyTestCase.test_login_0_1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Result" />
-      <item itemvalue="Python.Runner" />
-      <item itemvalue="Python.Verify_login" />
+      <item itemvalue="Python tests.Python tests for LoginTests.MyTestCase.test_login" />
+      <item itemvalue="Python tests.Unittests for LoginTests.MyTestCase.test_login_0_1" />
       <item itemvalue="Python tests.Python tests for LoginTests.MyTestCase" />
       <item itemvalue="Python tests.Python tests in LoginTests.py" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests in LoginTests.py" />
+        <item itemvalue="Python tests.Python tests for LoginTests.MyTestCase.test_login" />
+        <item itemvalue="Python tests.Unittests for LoginTests.MyTestCase.test_login_0_1" />
         <item itemvalue="Python tests.Python tests for LoginTests.MyTestCase" />
         <item itemvalue="Python.Result" />
-        <item itemvalue="Python.Runner" />
-        <item itemvalue="Python.Verify_login" />
       </list>
     </recent_temporary>
   </component>
@@ -169,16 +150,5 @@
       <updated>1686858677880</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/steps/Step_login.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
